@@ -36,7 +36,7 @@ public abstract class Layer{
     public abstract int getOutputCols();
     public abstract int getOutputElements();
 
-    public double[] matrixToVector(List<Double[][]> input){
+    public double[] matrixToVector(List<double[][]> input){
         int length = input.size();
         int rows = input.get(0).length;
         int cols = input.get(0)[0].length;
